@@ -6,7 +6,7 @@ This project uses a deep neural network to analyze EEG data and how they relate 
 
 ## Overview
 
-The task is to be able to predict a mental disorder based on EEG data. I used a deep neural network with 3 dense layers and classification loss function. The results were that the model would converge at around a 30% accuracy in predicting a mental disorder based off EEG data. This was out of 10 classes which is better than a 10% accuracy expected from random guessing.
+The task is to be able to predict a mental disorder based on EEG data. I used a deep neural network with 3 dense layers and classification loss function. The results were that the model would converge at around a ~32% validation accuracy in predicting a mental disorder based off EEG data. This was out of 8 classes which is better than a 12.5% accuracy expected from random guessing.
 
 ## Summary of Workdone
 
@@ -58,7 +58,7 @@ Most of the IQ distribution between the different classes were around 100 and wi
 #### Preprocessing / Clean up
 
 I decided to keep the EEG features pure because they are already feature engineered and batch normalization was done within the neural network.
-However, for the target variables, I decided to one-hot encode the target variables and transformed them into floating-point values. I decided to remove the Acute Stress Disorder and Adjustment Disorder classes because of their low frequency. 
+However, for the target variables, I decided to one-hot encode the target variables and transformed them into floating-point values. I decided to remove the Acute Stress Disorder, Obsessive Compulsive Disorder, Social Anxiety, and Adjustment Disorder classes because of their low frequency. 
 
 ![image](https://github.com/user-attachments/assets/3d819421-b624-4fd1-af27-c37cf61f954a)
 
