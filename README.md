@@ -15,15 +15,10 @@ The task is to be able to predict a mental disorder based on EEG data. I used a 
 The data was large with 945 different patients and 1148 different features. 
 
 First I looked at the non-EEG data which were age, education, and IQ. 
-Age
 
 ![image](https://github.com/user-attachments/assets/3f4d5f5b-d6a4-4357-8c3c-f97712c2d68a)
 
-IQ
-
 ![image](https://github.com/user-attachments/assets/89000ca0-7b26-4ba5-ab93-b7def3f5071b)
-
-Education
 
 ![image](https://github.com/user-attachments/assets/fee7c5bc-dedc-47f5-9642-d0b5ac2925f2)
 
