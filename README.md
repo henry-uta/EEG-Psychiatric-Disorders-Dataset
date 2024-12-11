@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/6c991496-8feb-474d-83a7-9b0ee179c20c)
 
-# Project Title
+# Predicting Psychiatric Disorders Based on EEG Features
 
 This project uses a deep neural network to analyze EEG data and how they relate to a specific mental disorder.
 
